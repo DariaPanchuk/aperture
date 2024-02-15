@@ -1,0 +1,117 @@
+.tools__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.tools__textarea {
+    padding: 10px 10px 10px 15px;
+    max-width: 200px;
+
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        padding: 20px 0px 20px 15px;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        padding: 60px 0px 20px 20px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding: 130px 0px 20px 50px;
+        max-width: 300px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 120px 0px 123px 60px;
+        max-width: 400px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding: 167px 0px 143px 100px;
+        max-width: 514px;
+    }
+}
+
+.tools__subtitle {
+    margin-bottom: 4px;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1;
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 6px;
+    
+    font-size: 14px;
+    line-height: 1.4;
+    }
+}
+
+.tools__title {
+    margin-bottom: 10px;
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1;
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        font-size: 15px;
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 14px;
+    
+    font-size: 28px;
+    line-height: 1.1;
+    }
+}
+
+.tools__text {
+    margin-bottom: 10px;
+    max-height: 80px;
+    overflow: scroll;
+
+    @media screen and (min-width: 768px) {
+        max-height: 100px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 20px;
+        max-height: 100%;
+    }
+}
+
+.parameters--tools {
+    top: 80%;
+    left: 60%;
+    right: 5%;
+
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        left: 60%;
+        right: 5%;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        left: 60%;
+        right: 5%;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        top: 87%;
+        left: 70%;
+        right: 5%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        top: 92%;
+        left: 78%;
+        right: 3%;
+    }
+}

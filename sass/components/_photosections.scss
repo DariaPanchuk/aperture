@@ -1,0 +1,48 @@
+.photosection {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    padding-top: 208px;
+    padding-bottom: 316px;
+    padding-left: 208px;
+    padding-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        padding-left: 200px;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        padding-left: 380px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding-left: 580px;
+        max-width: 100%;
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1439px) {
+        padding-left: 900px;
+        max-width: 1600px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding-left: 1082px;
+        max-width: 1600px;
+    }
+}
+
+.photosection__title {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    margin-bottom: 4px;
+}
+
+.photosection__text {
+    margin: 0 auto 0 0;
+    max-width: 300px;
+}

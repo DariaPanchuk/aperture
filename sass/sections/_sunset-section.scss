@@ -1,0 +1,56 @@
+.photosection--sunset {
+    @media screen and (min-width: 0px) and (max-width: 479px) {
+        background-image: url(../images/img/section3_mob.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/img/section3_mob@2x.jpg);
+        }
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        background-image: url(../images/img/section3_mob.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/img/section3_mob@2x.jpg);
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        background-image: url(../images/img/section3_tab.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/img/section3_tab@2x.jpg);
+        }
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 1439px) {
+        background-image: url(../images/img/section3.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/img/section3@2x.jpg);
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        background-image: url(../images/img/section3.jpg);
+
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(../images/img/section3@2x.jpg);
+        }
+    }
+}
